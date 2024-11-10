@@ -1,0 +1,17 @@
+<form [formGroup]="voyage">
+    Description : <input formControlName="description">
+    
+    <div *ngIf="voyage.get('description')!.invalid && 
+    voyage.get('description')!.touched">
+            Description required !
+    </div>
+    
+    Depart : <input formControlName="depart">
+    <div *ngIf="voyage.get('depart')!.invalid && 
+    voyage.get('depart')!.touched">
+        Depart invalid !
+    </div>
+    Arrive : <input formControlName="arrive">
+    Nombre Places : <input formControlName="nb_place">
+    <input type="submit" value="Add voyage" [disabled]="voyage.invalid" (click)="add()">
+</form>

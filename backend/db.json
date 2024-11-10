@@ -1,0 +1,28 @@
+{
+  "voyage": [
+    {
+      "id": "45b8",
+      "description": "a",
+      "depart": "Vdepart",
+      "arrive": "a",
+      "nb_place": 0,
+      "nb_view": 0
+    },
+    {
+      "id": "6e2a",
+      "description": "azz",
+      "depart": "Vdepart",
+      "arrive": "aa",
+      "nb_place": 16,
+      "nb_view": 0
+    },
+    {
+      "id": "0212",
+      "description": "r",
+      "depart": "Vdepart",
+      "arrive": "ee",
+      "nb_place": 0,
+      "nb_view": 0
+    }
+  ]
+}
